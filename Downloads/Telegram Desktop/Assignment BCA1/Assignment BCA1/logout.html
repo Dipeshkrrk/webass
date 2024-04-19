@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logout Page</title>
+  <style>
+    body {
+      background: linear-gradient(to right,
+                  rgb(218, 218, 218),
+                  rgb(255, 255, 255),
+                  rgb(215, 215, 159)
+      );
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .logout-container {
+      width: 300px;
+      margin: 100px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    h2 {
+      color: #333; /* Changed header text color */
+    }
+    button {
+      padding: 10px;
+      margin-top: 20px;
+      background-color: #4CAF50; /* Changed button background color to green */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45A049; /* Changed hover background color */
+    }
+  </style>
+</head>
+<body>
+  <div class="logout-container">
+    <h2>You have been successfully logged out</h2> <!-- Changed h2 text -->
+    <form action="login.html" method="get">
+      <button type="submit">Back to Login</button> <!-- Changed button text -->
+    </form>
+  </div>
+</body>
+</html>
